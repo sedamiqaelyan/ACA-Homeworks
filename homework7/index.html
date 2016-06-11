@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        function gramTranfer() {
+            var gramValue=document.getElementById('gram').value;
+            var kiloValue=gramValue/1000;
+            var centValue=gramValue/100000;
+            var tonnaValue=gramValue/1000000;
+            var kiloElement=document.getElementById('kilo');
+            kiloElement.value=kiloValue;
+            var centElement=document.getElementById('cent');
+            centElement.value=centValue;
+            var tonnaElement=document.getElementById('tonna');
+            tonnaElement.value=tonnaValue;
+            var gramBar=document.getElementById('gramBar');
+            gramBar.style.width=gramValue/260*100+'%';
+            var kiloBar=document.getElementById('kiloBar');
+            kiloBar.style.width=kiloValue/260*100+'%';
+            var centBar=document.getElementById('centBar');
+            centBar.style.width=centValue/260*100+'%';
+            var tonnaBar=document.getElementById('tonnaBar');
+            tonnaBar.style.width=tonnaValue/260*100+'%';
+
+        }
+        function kiloTransfer() {
+            var kiloValue=document.getElementById('kilo').value;
+            var gramValue=kiloValue*1000;
+            var centValue=kiloValue/100;
+            var tonnaValue=kiloValue/1000;
+            var gramElemet=document.getElementById('gram');
+            gramElemet.value=gramValue;
+            var centElemet=document.getElementById('cent');
+            centElemet.value=centValue;
+            var tonnaElemet=document.getElementById('tonna');
+            tonnaElemet.value=tonnaValue;
+            var gramBar=document.getElementById('gramBar');
+            gramBar.style.width=gramValue/260*100+'%';
+            var kiloBar=document.getElementById('kiloBar');
+            kiloBar.style.width=kiloValue/260*100+'%';
+            var centBar=document.getElementById('centBar');
+            centBar.style.width=centValue/260*100+'%';
+            var tonnaBar=document.getElementById('tonnaBar');
+            tonnaBar.style.width=tonnaValue/260*100+'%';
+
+        }
+        function centTransfer() {
+            var centValue=document.getElementById('cent').value;
+            var gramValue=centValue*100000;
+            var kiloValue=centValue*100;
+            var tonnaValue=centValue/10;
+            var gramElement=document.getElementById('gram');
+            gramElement.value=gramValue;
+            var kiloElement=document.getElementById('kilo');
+            kiloElement.value=kiloValue;
+            var tonnaElement=document.getElementById('tonna');
+            tonnaElement.value=tonnaValue;
+            var gramBar=document.getElementById('gramBar');
+            gramBar.style.width=gramValue/260*100+'%';
+            var kiloBar=document.getElementById('kiloBar');
+            kiloBar.style.width=kiloValue/260*100+'%';
+            var centBar=document.getElementById('centBar');
+            centBar.style.width=centValue/260*100+'%';
+            var tonnaBar=document.getElementById('tonnaBar');
+            tonnaBar.style.width=tonnaValue/260*100+'%';
+
+        }
+        function tonnaTransfer() {
+            var tonnaValue=document.getElementById('tonna').value;
+            var gramValue=tonnaValue*1000000;
+            var kiloValue=tonnaValue*1000;
+            var centValue=tonnaValue*10;
+            var gramElement=document.getElementById('gram');
+            gramElement.value=gramValue;
+            var kiloElement=document.getElementById('kilo');
+            kiloElement.value=kiloValue;
+            var centElement=document.getElementById('cent');
+            centElement.value=centValue;
+            var gramBar=document.getElementById('gramBar');
+            gramBar.style.width=gramValue/260*100+'%';
+            var kiloBar=document.getElementById('kiloBar');
+            kiloBar.style.width=kiloValue/260*100+'%';
+            var centBar=document.getElementById('centBar');
+            centBar.style.width=centValue/260*100+'%';
+            var tonnaBar=document.getElementById('tonnaBar');
+            tonnaBar.style.width=tonnaValue/260*100+'%';
+
+        }
+        function Transfer() {
+            var gramValue=document.getElementById('gram').value;
+            var kiloValue=document.getElementById('kilo').value;
+            var centValue=document.getElementById('cent').value;
+            var tonnaValue=document.getElementById('tonna').value;
+            if(gramValue!='' && !isNaN(gramValue)){
+                gramTranfer();
+                return;
+            }
+            if(kiloValue!='' && !isNaN(kiloValue)){
+                kiloTransfer();
+                return;
+            }
+            if(centValue!='' && !isNaN(centValue)){
+                centTransfer();
+                return;
+            }
+            if(tonnaValue!='' && !isNaN(tonnaValue)) {
+                tonnaTransfer();
+                return;
+            }
+
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>Gram</h2>
+            <div class="progress">
+                <div id="gramBar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                </div>
+            </div>
+            <input type="text" id="gram" class="form-control input-group-lg">
+
+        </div>
+        <div class="col-sm-3">
+            <h2>Kilogram</h2>
+            <div class="progress">
+                <div id="kiloBar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                </div>
+            </div>
+            <input type="text" id="kilo" class="form-control input-group-lg">
+
+        </div>
+        <div class="col-sm-3">
+            <h2>Centner</h2>
+            <div class="progress">
+                <div id="centBar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                </div>
+            </div>
+            <input type="text" id="cent" class="form-control input-group-lg">
+
+        </div>
+        <div class="col-sm-3">
+            <h2>Tonna</h2>
+            <div class="progress">
+                <div id="tonnaBar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                </div>
+            </div>
+            <input type="text" id="tonna" class="form-control input-group-lg">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2" style="padding-top: 30px;">
+            <button class="btn btn-primary btn-block btn-lg" onclick="Transfer()">Click</button>
+        </div>
+        <div class="col-sm-5"></div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
