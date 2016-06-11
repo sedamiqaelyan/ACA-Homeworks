@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<p><h4 style="test-align:center;" >Please enter 'U' or 'D' or 'R' or 'L' after one click.</P></h4>
+<input id="text" style="margin-top: 30px;margin-left: 475px;">
+<button onclick="drawMatrix()">Click</button>
+<div class="container" id="matrixContainer">
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+    function drawMatrix() {
+        var matrixHTML = '';
+        for (var i = 0; i < 10; ++i) {
+            matrixHTML += '<div class="row" style="padding-top: 30px;">';
+            for (var j = 0; j < 10; ++j) {
+                matrixHTML += '<div class="col-sm-1">';
+                matrixHTML += '<div class="border"  style= "border:1px solid black;width: 10px; padding: 10px;" id="border'+i + "_" + j+'">'
+                matrixHTML += '</div>';
+                matrixHTML += '</div>';
+            }
+            matrixHTML += '</div>';
+        }
+        document.getElementById("matrixContainer").innerHTML = matrixHTML;
+        var steps = document.getElementById('text').value;
+        document.getElementById("border0_0").style.backgroundColor="green";
+        var i=0;
+        var j=0;
+        for(var k=0;k<=steps.length;++k) {
+            if (steps.charAt(k) === 'D')
+                document.getElementById("border"+(++i)+"_"+j).style.backgroundColor = "green";
+            else if (steps.charAt(k) === 'R')
+                document.getElementById("border"+i+"_"+(++j)).style.backgroundColor = "green";
+            else if (steps.charAt(k) === 'U')
+                document.getElementById("border"+(--i)+"_"+(j)).style.backgroundColor = "green";
+            else if (steps.charAt(k) === 'L')
+                document.getElementById("border"+(i)+"_"+(--j)).style.backgroundColor = "green";
+        }
+
+    }
+</script>
+</body>
+</html>
