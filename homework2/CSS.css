@@ -1,0 +1,33 @@
+.border1{
+	border:1px solid blue;
+	text-align:left;
+	font-size:20px;
+	padding:5px;
+	width:340px;
+	
+}
+.border2{
+	border:1px solid blue;
+	font-size:20px;
+	padding:5px;
+	width:70px;
+	text-align:center;
+}
+
+.border3{
+	border:2px solid green;
+	font-size:25px;
+	padding:8px;
+	width:150px;
+	text-align:center;
+	background-color:green;
+	color:white;
+}
+.style{
+	margin-left:500px;
+
+}
+.picture{
+	float:left;
+	
+}
