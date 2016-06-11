@@ -1,0 +1,281 @@
+<!Doctype html>
+<html>
+	<head>
+		<link href="homework3.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="page">
+		<div class="text1">
+		<p><big><b>Popular</b></big></p>
+		</div>
+		<div class="pictures">
+			<table style= "width:105%">
+			<tr>
+				<td><div class="picture1">
+				<img src="Pictures/2.jpg" width="200px" height="150px">	
+				<p><a href="url"> Lorem ipstum dolor<br> sit amet consectetur.</a></p>
+				<p><small>12 sep,2015<br></small</p>
+				<p><small>Lorem ipstum dolor sit amet,<br>consectetur adipiscing.</small></p>
+				</div></td>
+				<td><div class="picture2">
+				<img src="Pictures/3.jpg" width="200px" height="150px">	
+				<p><a href="url"> Lorem ipstum dolor<br> sit amet consectetur.</a>
+				<p><small>12 sep,2015<br></small</p>
+				<p><small>Lorem ipstum dolor sit amet,<br>consectetur adipiscing.</small></p>
+				</div></td>
+				<td><div class="picture3">
+				<img src="Pictures/4.jpg" width="200px" height="150px">	
+				<p><a href="url"> Lorem ipstum dolor<br> sit amet consectetur.</a>
+				<p><small>12 sep,2015<br></small</p>
+				<p><small>Lorem ipstum dolor sit amet,<br>consectetur adipiscing.</small></p>
+				</div></td>
+				<td><div class="picture4">
+				<img src="Pictures/5.jpg" width="200px" height="150px">	
+				<p><a href="url"> Lorem ipstum dolor<br> sit amet consectetur.</a>
+				<p><small>12 sep,2015<br></small</p>
+				<p><small>Lorem ipstum dolor sit amet,<br>consectetur adipiscing.</small></p>
+				</div></td>
+			</tr>
+			</table>
+		</div>
+		<b><big><b>Nature</b></big>
+		<div class ="button">
+		<a href="url"><b><small>VIEW ALL</small></b></a>
+		</div>
+		<table>
+		<tr>
+		<td><div class="bigPicture">
+			<img src="Pictures/9.jpg" width="470px" height="340px">
+			<a href="url"><p><big>What have you done to make 2015?</big></p></a><br>
+			<small>12 sep,2015</small><br>
+			<p><small>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Nullam id libero vitae magna<br>
+			solictudin pulvinar vel et tellus.Cras a tincidunt sapien,et efficitur turpis.Pellentesque<br>
+			efficitur in purus in feugiat.</small></p>
+		</div></td>
+		<td><div class="smallPictures">
+				<ul style="list-style-type:none">
+				<li><img src="Pictures/10.jpg" width="160px" height="130px"></li>
+				<li><img src="Pictures/11.jpg" width="160px" height="130px"></li>
+				<li><img src="Pictures/12.jpg" width="160px" height="130px"></li>
+				<li><img src="Pictures/13.jpg" width="160px" height="130px"></li>
+				</ul>
+			</div></td>
+		<td><div class="text2">
+				<ul style="list-style-type:none">
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				</ul>
+			</div></td>
+		</tr>
+		</table>
+		<div class="link">
+			<div class="link1">
+			<a href="url"><small>HEADLINES</small></a>
+			</div>
+			<small>Lorem ipstum dolor sit amet,consectetur adipiscing elit. Nunc a commodo sem, ut egestas.</small>
+		</div>
+		<b><big><b>Sport</b></big>
+		<div class ="button">
+		<a href="url"><b><small>VIEW ALL</small></b></a>
+		</div>
+		<table>
+		<tr>
+		<td><div class="bigPicture">
+			<img src="Pictures/sp1.jpg" width="470px" height="340px">
+			<a href="url"><p><big>What have you done to make 2015?</big></p></a><br>
+			<small>12 sep,2015</small><br>
+			<p><small>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Nullam id libero vitae magna<br>
+			solictudin pulvinar vel et tellus.Cras a tincidunt sapien,et efficitur turpis.Pellentesque<br>
+			efficitur in purus in feugiat.</small></p>
+		</div></td>
+		<td><div class="smallPictures">
+				<ul style="list-style-type:none">
+				<li><img src="Pictures/sp2.jpg" width="160px" height="130px"></li>
+				<li><img src="Pictures/sp3.jpg" width="160px" height="130px"></li>
+				<li><img src="Pictures/sp4.jpg" width="160px" height="130px"></li>
+				<li><img src="Pictures/sp5.jpg" width="160px" height="130px"></li>
+				</ul>
+			</div></td>
+		<td><div class="text2">
+				<ul style="list-style-type:none">
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				<li><a href="url"><p><b><small> Loren ipsum dolor sit amet,consectetur.</small></b></p></a><br>
+				<small>12 sep,2015</small><br>
+				<small>Cras a tincidunt sapein, etefficitur turpis.Pellentesque efficitur<br>
+				in purus in feugiat.</small></li>
+				</ul>
+			</div></td>
+		</tr>
+		</table>
+		<div class="dist">
+		<table style="width:130%">
+		<tr>
+		<td><b><big>News</big></b></td>
+		<td><b><big>Hot</big></b></td>
+		</tr>
+		</table>
+		</div>
+		<div class="pic">
+		<ul style="list-style-type:none">
+		<li><table style="width:60%">
+		<tr>
+		<td><img src="Pictures/pic1.jpg" width="200px" height="150px"></td>
+		<td><b><big><a href="url"> Lorem ipsum dolor sit amet,consectetur.</b></big></a>
+		<p><small>12 sep,2015</small></p>
+		<small>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>
+		Nullam id libero vitae magna solictudin pulvinar vel et tellus.<br>
+		Cras a tincidunt sapien,et efficitur turpis.Pellentesque<br>
+		efficitur in purus in feugiat.</small></li>
+			</td>
+			<li><table style="width:60%">
+		<tr>
+		<td><img src="Pictures/pic2.jpg" width="200px" height="150px"></td>
+		<td><b><big><a href="url"> Lorem ipsum dolor sit amet,consectetur.</b></big></a>
+		<p><small>12 sep,2015</small></p>
+		<small>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>
+		Nullam id libero vitae magna solictudin pulvinar vel et tellus.<br>
+		Cras a tincidunt sapien,et efficitur turpis.Pellentesque<br>
+		efficitur in purus in feugiat.</small></li>
+			</td>
+			<li><table style="width:60%">
+		<tr>
+		<td><img src="Pictures/pic3.jpg" width="200px" height="150px"></td>
+		<td><b><big><a href="url"> Lorem ipsum dolor sit amet,consectetur.</b></big></a>
+		<p><small>12 sep,2015</small></p>
+		<small>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>
+		Nullam id libero vitae magna solictudin pulvinar vel et tellus.<br>
+		Cras a tincidunt sapien,et efficitur turpis.Pellentesque<br>
+		efficitur in purus in feugiat.</small></li>
+			</td>
+			<li><table style="width:60%">
+		<tr>
+		<td><img src="Pictures/pic4.jpg" width="200px" height="150px"></td>
+		<td><b><big><a href="url"> Lorem ipsum dolor sit amet,consectetur.</b></big></a>
+		<p><small>12 sep,2015</small></p>
+		<small>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>
+		Nullam id libero vitae magna solictudin pulvinar vel et tellus.<br>
+		Cras a tincidunt sapien,et efficitur turpis.Pellentesque<br>
+		efficitur in purus in feugiat.</small></li>
+			</td>
+			<li><table style="width:60%">
+		<tr>
+		<td><img src="Pictures/pic5.jpg" width="200px" height="150px"></td>
+		<td><b><big><a href="url"> Lorem ipsum dolor sit amet,consectetur.</b></big></a>
+		<p><small>12 sep,2015</small></p>
+		<small>Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>
+		Nullam id libero vitae magna solictudin pulvinar vel et tellus.<br>
+		Cras a tincidunt sapien,et efficitur turpis.Pellentesque<br>
+		efficitur in purus in feugiat.</small></li>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<!--<div class="lec">
+		<b><a href="url">Sport</b></a><br>
+		<small>Cras a tincidunt sapein, et efficitur turpis. Pellentesque<br>
+		efficitur in purus in feugiat.</small><br>
+		<b><a href="url">Sport</b></a><br>
+		<small>Cras a tincidunt sapein, et efficitur turpis. Pellentesque<br>
+		efficitur in purus in feugiat.</small><br>
+		<b><a href="url">Sport</b></a><br>
+		<small>Cras a tincidunt sapein, et efficitur turpis. Pellentesque<br>
+		efficitur in purus in feugiat.</small><br>
+		<b><a href="url">Sport</b></a><br>
+		<small>Cras a tincidunt sapein, et efficitur turpis. Pellentesque<br>
+		efficitur in purus in feugiat.</small><br>
+		<b><a href="url">Sport</b></a><br>
+		<small>Cras a tincidunt sapein, et efficitur turpis. Pellentesque<br>
+		efficitur in purus in feugiat.</small><br>
+		<b><a href="url">Sport</b></a><br>
+		<small>Cras a tincidunt sapein, et efficitur turpis. Pellentesque<br>
+		efficitur in purus in feugiat.</small>	
+		</div>-->
+		<div class="menu">
+		<table style="width:100%">
+		<tr>
+		<td><ul style="list-style-type:none" >
+		<li><p><b>Menu</b></p></li>
+		<li><h5>About</h5></li>
+		<li><h5>Multimedia</h5></li>
+		<li><h5>Shortcodes</h5></li>
+		<li><h5>Contatcs</h5></li>
+		</ul></td>
+		<td><ul style="list-style-type:none" >
+		<li><p><b>Categories</b></p></li>
+		<li><h5>World</h5></li>
+		<li><h5>Sport</h5></li>
+		<li><h5>Life</h5></li>
+		<li><h5>Bisiness</h5></li>
+		<li><h5>Food</h5></li>
+		<li><h5>Sciencs</h5></li>
+		<li><h5>Tech</h5></li>
+		</ul></td>
+		<td><ul style="list-style-type:none" >
+		<li><p><b>Sport</b></p></li>
+		<li><h5>Football</h5></li>
+		<li><h5>Hockey</h5></li>
+		<li><h5>Tennis</h5></li>
+		<li><h5>Basketball</h5></li>
+		<li><h5>Baseball</h5></li>
+		<li><h5>Golf</h5></li>
+		<li><h5>Swimming</h5></li>
+		</ul></td>
+		<td><ul style="list-style-type:none" >
+		<li><p><b>Life</b></p></li>
+		<li><h5>Personal</h5></li>
+		<li><h5>Employment</h5></li>
+		<li><h5>Happiness</h5></li>
+		<li><h5>Hobbies</h5></li>
+		<li><h5>Lifestyle</h5></li>
+		<li><h5>Pets</h5></li>
+		<li><h5>Suffering</h5></li>
+		</ul></td>
+		<td><ul style="list-style-type:none" >
+		<li><p><b>Food</b></p></li>
+		<li><h5>Dairy</h5></li>
+		<li><h5>Fruits</h5></li>
+		<li><h5>Grains</h5></li>
+		<li><h5>Meat</h5></li>
+		<li><h5>Confections</h5></li>
+		<li><h5>Vegetables</h5></li>
+		<li><h5>Water</h5></li>
+		</ul></td>
+		<td><ul style="list-style-type:none" >
+		<li><p><b>Science</b></p></li>
+		<li><h5>History of science</h5></li>
+		<li><h5>Instuments</h5></li>
+		<li><h5>Natural history</h5></li>
+		<li><h5>Philosophy</h5></li>
+		<li><h5>Terminology</h5></li>
+		<li><h5>Universe</h5></li>
+		<li><h5>Images</h5></li>
+		</ul></td>
+		</div>
+	</div>
+	</body>
+</html>	

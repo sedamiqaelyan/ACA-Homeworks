@@ -1,0 +1,48 @@
+.page{
+	border:1px solid black;
+	width:1000px;
+	margin:0 auto;
+	padding:30px;
+	
+}
+
+.text1{
+	text-align:center;
+}
+.button{
+	border:1px solid blue;
+	width:100px;
+	height:20px;
+	float:right;
+	text-align:center;
+}
+.bigPicture{
+	margin-top:30px;
+}
+.smallPictures{
+	margin-top:25px;
+}
+.link{
+	border:1px solid grey;
+	height:40px;
+	text-align:center;
+	padding-top:25px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+.link1{
+	border:1px solid white;
+	float:left;
+	width:150px;
+	height:40px;
+	text-align:center;
+	
+}
+.dist{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.menu{
+	padding-top:50px;
+}
+
